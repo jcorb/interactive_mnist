@@ -26,5 +26,5 @@ This will launch a web browser and display the app.  To use, click on the top pl
 
 ### To access via the internet:
 
-The app is running on Heroku and can be accessed 
+The app is running on Heroku and can be accessed here https://calm-meadow-39640.herokuapp.com/app
  
