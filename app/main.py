@@ -13,7 +13,7 @@ import tensorflow as tf
 def load_parameters():
     '''Load the trained parameters'''
     pickle_file = os.path.join(os.path.dirname(__file__), 'data', 'tf_parameters.pkl')
-    with open(pickle_file, 'r') as f:
+    with open(pickle_file, 'rb') as f:
         parameters = pickle.load(f)
 
     return parameters
