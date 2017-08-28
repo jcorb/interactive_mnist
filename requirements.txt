@@ -2,5 +2,8 @@ bokeh==0.12.6
 numpy==1.13.1
 pandas==0.20.3
 tensorflow==1.2.1
-dask=0.15.1
+dask==0.15.1
 scipy==0.19.1
+selenium==2.49.2
+phantomjs==2.1.1
+pillow==3.2.0
