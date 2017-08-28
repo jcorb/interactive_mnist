@@ -15,7 +15,7 @@ def load_parameters():
     pickle_file = os.path.join(os.path.dirname(__file__), 'data', 'tf_parameters.pkl')
     with open(pickle_file, 'rb') as f:
         parameters = pickle.load(f, encoding='latin1')
-
+        #
     return parameters
 
 def compute_relu(W, A, b):
